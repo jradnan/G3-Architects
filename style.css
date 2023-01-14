@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-section {
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding-top: 50px;
+    height: 1120px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+nav>ul {
+    display: flex;
+    height: 63px;
+    align-items: center;
+    gap: 40px;
+}
+
+nav>ul>li {
+    list-style: none;
+    font-size: 18px;
+}
+.banner{
+    width: 100%;
+    max-width: 862px;
+    margin: 150px auto;
+    text-align: center;
+   
+}
+.banner>h1 {
+    font-weight: 700;
+    font-size: 64px;
+    width: 100%;
+
+}
+
+.banner>p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0px;
+
+    
+}
+.btn{
+    margin: 40px 0px;
+}
+.btn-primary {
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.banner-image{
+    width: 70%;
+    height: 700px;
+    margin: -70px auto;
+}
+.banner-image img{
+    width: 100%;
+}
+/**************** responsive section **************** */
+@media only screen and (max-width:688px) {
+    .banner-section{
+        height: 980px;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+}
+
+/***********************
+ For Tab device 
+ ************************ */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .banner-section{
+        height: 980px;
+    }
+    /* .header-content{
+        flex-direction: column;
+    } */
+    /* body{
+        background-color: aqua;
+    } */
+}
+
+/**************** 
+* For Smaller Device like samsung s10,s20,pixel 3 ETC
+ ********** */
+
+@media only screen and (max-width:400px) {
+    .banner-section{
+        height: 920px;
+    }
+}
