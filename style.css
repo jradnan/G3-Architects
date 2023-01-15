@@ -480,6 +480,10 @@ footer {
         margin: auto;
     }
 
+    .hero-section-content>p{
+        width: 100%;
+    }
+
     .hero-image-container {
         grid-template-columns: repeat(2, 1fr);
 
