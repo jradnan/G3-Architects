@@ -139,6 +139,7 @@ nav>ul>li>a {
     padding-top: 24px;
     font-weight: 400;
     color: #727272;
+    width: 70%;
 }
 
 
@@ -335,12 +336,13 @@ nav>ul>li>a {
     font-size: 45px;
 }
 
-.bonus-content >h3>a{
+.bonus-content>h3>a {
     text-decoration: none;
 }
+
 .bonus-section-img img {
     width: 100%;
-    
+
 }
 
 /* ****************************************** */
@@ -377,6 +379,11 @@ footer {
         width: 400px;
     }
 
+    .hero-section-content p {
+
+        width: 100%;
+    }
+
     .hero-section {
 
         flex-direction: column;
@@ -392,6 +399,13 @@ footer {
         margin-top: 400px;
         width: 100%;
         justify-content: center;
+    }
+
+    .position-btn {
+        top: 20px;
+        bottom: 0px;
+        left: 120px;
+        right: 0px;
     }
 
     .facts {
@@ -440,7 +454,7 @@ footer {
         width: 400px;
     }
 
-    .bonus-section{
+    .bonus-section {
         flex-direction: column;
     }
 }
@@ -545,6 +559,10 @@ footer {
     .hero-section-content {
         text-align: center;
         width: 300px;
+    }
+
+    .hero-section-content>p {
+        width: 100%;
     }
 
     .business-card {
