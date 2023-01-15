@@ -154,19 +154,20 @@ nav>ul>li>a {
 
 }
 
-.horizon{
+.horizon {
     border-left: 5px solid #FF900E;
- 
+
 }
+
 .business-section-content {
     width: 390px;
-   
+
 }
 
 .business-section-content>h1 {
     font-weight: 700;
     font-size: 45px;
-    
+
 }
 
 .business-section-content>p {
@@ -316,6 +317,35 @@ nav>ul>li>a {
     width: 80%; */
 }
 
+/* *********************************
+            BONUS SECTION
+ ******************************** */
+.bonus-section {
+    background-color: #FFF4E7;
+    width: 60%;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 65px;
+}
+
+.bonus-content>h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.bonus-content >h3>a{
+    text-decoration: none;
+}
+.bonus-section-img img {
+    width: 100%;
+    
+}
+
+/* ****************************************** */
+/* ****************************************** */
+
 footer {
     background: #FFF4E7;
     padding: 39px 0px;
@@ -377,40 +407,42 @@ footer {
 
 
 
-.success-container {
-    flex-direction: column;
-    gap: 45px;
-    /* margin-top: 400px; */
-    align-items: center;
-}
+    .success-container {
+        flex-direction: column;
+        gap: 45px;
+        /* margin-top: 400px; */
+        align-items: center;
+    }
 
-.sponsors-area {
+    .sponsors-area {
 
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
 
-}
+    }
 
-.sponsors-area img {
-    width: 200px;
+    .sponsors-area img {
+        width: 200px;
 
-}
+    }
 
-.business-section {
-    flex-direction: column;
-    margin-top: 300px;
-}
+    .business-section {
+        flex-direction: column;
+        margin-top: 300px;
+    }
 
-.business-section-content {
-    text-align: center;
-}
+    .business-section-content {
+        text-align: center;
+    }
 
-.business-image img {
-    width: 400px;
-}
+    .business-image img {
+        width: 400px;
+    }
 
-
+    .bonus-section{
+        flex-direction: column;
+    }
 }
 
 
@@ -524,9 +556,10 @@ footer {
 
     }
 
-    .business-section-content{
+    .business-section-content {
         width: 250px;
     }
+
     .business-section-content>h1 {
         font-size: 25px;
     }
