@@ -402,10 +402,9 @@ footer {
     }
 
     .position-btn {
-        top: 20px;
-        bottom: 0px;
-        left: 120px;
+        top: 0px;
         right: 0px;
+        
     }
 
     .facts {
