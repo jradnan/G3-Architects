@@ -154,19 +154,19 @@ nav>ul>li>a {
 
 }
 
+.horizon{
+    border-left: 5px solid #FF900E;
+ 
+}
 .business-section-content {
     width: 390px;
-
+   
 }
 
-/* .horizon{
-    border-left: 26px solid #FF900E;
-    background-color: #FF900E;
-   
-} */
 .business-section-content>h1 {
     font-weight: 700;
     font-size: 45px;
+    
 }
 
 .business-section-content>p {
@@ -524,6 +524,9 @@ footer {
 
     }
 
+    .business-section-content{
+        width: 250px;
+    }
     .business-section-content>h1 {
         font-size: 25px;
     }
