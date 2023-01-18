@@ -234,8 +234,11 @@ nav>ul>li>a {
 }
 
 .facts {
-    width: 75%;
+    width: 50%;
+    height: 200px;
     margin: 130px auto;
+    border: 1px solid #FF900E;
+    overflow:scroll;
 }
 
 .facts>h1 {
@@ -246,7 +249,7 @@ nav>ul>li>a {
 .facts>p {
     font-weight: 400;
     font-size: 16px;
-    width: 50%;
+    /* width: 50%; */
 }
 
 
@@ -318,35 +321,9 @@ nav>ul>li>a {
     width: 80%; */
 }
 
-/* *********************************
-            BONUS SECTION
- ******************************** */
-.bonus-section {
-    background-color: #FFF4E7;
-    width: 60%;
-    margin: 160px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 65px;
-}
 
-.bonus-content>h1 {
-    font-weight: 700;
-    font-size: 45px;
-}
 
-.bonus-content>h3>a {
-    text-decoration: none;
-}
 
-.bonus-section-img img {
-    width: 100%;
-
-}
-
-/* ****************************************** */
-/* ****************************************** */
 
 footer {
     background: #FFF4E7;
